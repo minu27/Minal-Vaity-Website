@@ -629,6 +629,7 @@ pre code {
   flex-basis: 0;
   flex-grow: 1;
   min-width: 0;
+<<<<<<< HEAD:dist/css/styles.css
   max-width: 100%;
 }
 
@@ -637,6 +638,16 @@ pre code {
   max-width: 100%;
 }
 
+=======
+  max-width: 100%;
+}
+
+.row-cols-1 > * {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+>>>>>>> origin/gh-pages:css/freelancer.css
 .row-cols-2 > * {
   flex: 0 0 50%;
   max-width: 50%;
@@ -1049,6 +1060,7 @@ pre code {
     flex-basis: 0;
     flex-grow: 1;
     min-width: 0;
+<<<<<<< HEAD:dist/css/styles.css
     max-width: 100%;
   }
 
@@ -1057,6 +1069,16 @@ pre code {
     max-width: 100%;
   }
 
+=======
+    max-width: 100%;
+  }
+
+  .row-cols-md-1 > * {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+>>>>>>> origin/gh-pages:css/freelancer.css
   .row-cols-md-2 > * {
     flex: 0 0 50%;
     max-width: 50%;
@@ -1261,6 +1283,7 @@ pre code {
     flex-basis: 0;
     flex-grow: 1;
     min-width: 0;
+<<<<<<< HEAD:dist/css/styles.css
     max-width: 100%;
   }
 
@@ -1269,6 +1292,16 @@ pre code {
     max-width: 100%;
   }
 
+=======
+    max-width: 100%;
+  }
+
+  .row-cols-lg-1 > * {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+>>>>>>> origin/gh-pages:css/freelancer.css
   .row-cols-lg-2 > * {
     flex: 0 0 50%;
     max-width: 50%;
@@ -2482,9 +2515,15 @@ fieldset:disabled a.btn {
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
+<<<<<<< HEAD:dist/css/styles.css
   background-color: #f08080;
   border-color: #f08080;
   box-shadow: 0 0 0 0.2rem rgba(240, 128, 128, 1);
+=======
+  background-color: #159a80;
+  border-color: #148f77;
+  box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
+>>>>>>> origin/gh-pages:css/freelancer.css
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
@@ -2497,7 +2536,11 @@ fieldset:disabled a.btn {
   border-color: #f08080;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+<<<<<<< HEAD:dist/css/styles.css
   box-shadow: 0 0 0 0.2rem rgba(240, 128, 128, 1);
+=======
+  box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
+>>>>>>> origin/gh-pages:css/freelancer.css
 }
 
 .btn-secondary {
@@ -2732,7 +2775,11 @@ fieldset:disabled a.btn {
   border-color: #f08080;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+<<<<<<< HEAD:dist/css/styles.css
   box-shadow: 0 0 0 0.2rem rgba(240, 128, 128, 1);
+=======
+  box-shadow: 0 0 0 0.2rem rgba(26, 188, 156, 0.5);
+>>>>>>> origin/gh-pages:css/freelancer.css
 }
 
 .btn-outline-secondary {
@@ -5067,6 +5114,13 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   background-color: #f08080;
   border-color: #f08080;
+}
+.list-group-item + .list-group-item {
+  border-top-width: 0;
+}
+.list-group-item + .list-group-item.active {
+  margin-top: -0.125rem;
+  border-top-width: 0.125rem;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
